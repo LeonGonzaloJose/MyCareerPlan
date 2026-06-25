@@ -1,0 +1,29 @@
+- # Etapa 2 — Testing: de cero a TDD
+- **Mes 2–3 · El hábito más diferenciador de un senior**
+- Inicio real:: 
+- Fin real::
+- ## Objetivos
+	- TODO Escribir tests unitarios con PHPUnit para código PHP/Laravel existente
+	- TODO Entender qué testear y qué NO testear
+	- TODO Practicar el ciclo Red-Green-Refactor de TDD
+	- TODO Escribir tests de integración para APIs REST
+- ## Temas
+	- TODO Anatomía de un test: Arrange, Act, Assert
+	- TODO Mocks, stubs y fakes: cuándo usar cada uno
+	- TODO PHPUnit avanzado: data providers, setUp, excepciones
+	- TODO Testing en Laravel: RefreshDatabase, HTTP tests, factories
+	- TODO TDD desde cero: ciclo Red-Green-Refactor
+	- TODO Cobertura de código: qué significa y por qué el 100% es una trampa
+	- TODO Testing de APIs con supertest (Node) y httptest (Go)
+- ## Bibliografía
+	- **Test-Driven Development: By Example** — Kent Beck · *Principal, el creador de TDD*
+	- **The Art of Unit Testing** — Roy Osherove · *Referencia completa multi-lenguaje*
+	- **Growing Object-Oriented Software, Guided by Tests** — Freeman & Pryce · *Avanzado: TDD a nivel de sistema*
+- ## Proyecto integrador
+	- **Suite de tests para el marketplace de APERNET**
+	- Tests para un flujo crítico (órdenes, pagos, integración bancaria). Meta: 60%+ de cobertura en ese módulo.
+	- TODO Flujo elegido: 
+	- TODO Tests unitarios implementados
+	- TODO Tests de integración implementados
+	- TODO 60%+ de cobertura alcanzada
+	- TODO Factories y mocks reales

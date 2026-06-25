@@ -1,0 +1,28 @@
+- # Etapa 3 — Bases de datos en profundidad
+- **Mes 3–4 · De ORM a DBA consciente**
+- Inicio real:: 
+- Fin real::
+- ## Objetivos
+	- TODO Escribir queries SQL complejas sin ORM cuando sea necesario
+	- TODO Entender índices, EXPLAIN y optimización de queries
+	- TODO Diseñar esquemas relacionales correctamente (normalización)
+	- TODO Usar Redis como caché, colas y pub/sub
+- ## Temas
+	- TODO JOINs complejos, subqueries, CTEs, window functions
+	- TODO EXPLAIN ANALYZE: cómo leer el plan de ejecución
+	- TODO Índices: B-tree, hash, parciales, compuestos — cuándo crearlos y cuándo no
+	- TODO Transacciones, niveles de aislamiento, deadlocks
+	- TODO Normalización: 1NF → 3NF y cuándo desnormalizar conscientemente
+	- TODO Redis: strings, hashes, sets, sorted sets, pub/sub, TTL, eviction
+	- TODO Migraciones seguras en producción sin downtime
+	- TODO Introducción a NoSQL: cuándo usar MongoDB vs relacional
+- ## Bibliografía
+	- **Designing Data-Intensive Applications** — Martin Kleppmann · *Principal, el más importante de la etapa*
+	- **Database Internals** — Alex Petrov · *Cómo funcionan las DBs por dentro*
+	- **Learning SQL** — Alan Beaulieu · *Si tenés huecos en SQL básico-intermedio*
+- ## Proyecto integrador
+	- **Sistema de reportes con SQL puro y Redis**
+	- Endpoint de reportes para APERNET sin ORM. Caché con Redis con TTL por marketplace. EXPLAIN + optimización de al menos una query lenta real.
+	- TODO Endpoint sin ORM implementado
+	- TODO Caché Redis con TTL por marketplace
+	- TODO Al menos una query analizada con EXPLAIN y optimizada

@@ -1,0 +1,31 @@
+- # Etapa 4 — Arquitectura de software real
+- **Mes 4–6 · Clean Architecture, DDD y APIs que duran**
+- Inicio real:: 
+- Fin real::
+- ## Objetivos
+	- TODO Diseñar aplicaciones con Hexagonal/Clean Architecture
+	- TODO Entender DDD: Aggregates, Value Objects, Bounded Contexts
+	- TODO Diseñar APIs REST profesionales con versionado, autenticación y documentación
+	- TODO Comprender CQRS y cuándo tiene sentido aplicarlo
+- ## Temas
+	- TODO Arquitectura en capas vs hexagonal vs clean: diferencias reales
+	- TODO Ports & Adapters: desacoplar el dominio de la infraestructura
+	- TODO DDD táctico: Entities, Value Objects, Aggregates, Domain Events
+	- TODO DDD estratégico: Bounded Contexts, Context Maps, Ubiquitous Language
+	- TODO REST maduro: códigos HTTP correctos, HATEOAS, versionado
+	- TODO OpenAPI 3.0: documentación como contrato
+	- TODO Autenticación: JWT, OAuth2, refresh tokens, seguridad real
+	- TODO CQRS: separar lecturas de escrituras, cuándo y cuándo no
+- ## Bibliografía
+	- **Clean Architecture** — Robert C. Martin · *Principal*
+	- **Implementing Domain-Driven Design** — Vaughn Vernon · *DDD práctico y moderno*
+	- **Domain-Driven Design** — Eric Evans · *El libro azul original (referencia)*
+	- **RESTful Web APIs** — Richardson & Amundsen · *El estándar para APIs REST*
+- ## Proyecto integrador
+	- **API de marketplace con Clean Architecture en PHP**
+	- Reescribir un módulo de APERNET con capas claras: Domain / Application / Infrastructure. Tests en cada capa, documentación OpenAPI y versionado.
+	- TODO Módulo elegido: 
+	- TODO Capas Domain / Application / Infrastructure separadas
+	- TODO Tests en cada capa
+	- TODO Documentación OpenAPI
+	- TODO Versionado de API

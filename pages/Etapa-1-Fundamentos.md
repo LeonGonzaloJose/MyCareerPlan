@@ -1,0 +1,29 @@
+# Etapa 1 — Fundamentos que nunca te enseñaron
+- **Meses 1–2 · La base real de la ingeniería de software**
+- Inicio real::
+- Fin real::
+- ## Objetivos
+	- LATER Entender SOLID con ejemplos en PHP real de tu trabajo diario
+	- TODO Conocer los 23 patrones del GoF y cuándo usarlos (no memorizarlos)
+	- TODO Leer y escribir código limpio con intención, no intuición
+	- TODO Comprender complejidad algorítmica O(n) para tomar mejores decisiones
+- ## Temas
+	- TODO Principios SOLID uno por uno, con refactoring de código PHP tuyo
+	- TODO Patrones creacionales: Factory, Builder, Singleton (y cuándo NO usarlo)
+	- TODO Patrones estructurales: Adapter, Decorator, Facade, Repository
+	- TODO Patrones de comportamiento: Observer, Strategy, Command, Iterator
+	- TODO Big O notation: arrays, hash maps, búsqueda, ordenamiento
+	- TODO Clean Code: nombres, funciones, comentarios, formateo
+	- TODO Principios DRY, YAGNI, KISS aplicados al día a día
+- ## Bibliografía
+	- **Clean Code** — Robert C. Martin · *Principal, empezá por acá*
+	- **Design Patterns (GoF)** — Gang of Four · *Referencia de patrones*
+	- **Head First Design Patterns** — Freeman & Robson · *Alternativa accesible al GoF*
+	- **A Philosophy of Software Design** — John Ousterhout · *Complemento moderno, 200 págs.*
+- ## Proyecto integrador
+	- **Refactoring de un módulo de APERNET**
+	- Tomá el módulo más caótico que encuentres y refactorizalo aplicando SOLID y al menos 3 patrones de diseño. Documentá antes/después.
+	- TODO Módulo elegido:
+	- TODO SOLID aplicado
+	- TODO 3+ patrones de diseño implementados
+	- TODO Documentación antes/después

@@ -1,0 +1,31 @@
+- # Etapa 5 — Docker, Kubernetes y CI/CD
+- **Mes 6–9 · Infra que todo backend senior debe dominar**
+- Inicio real:: 
+- Fin real::
+- ## Objetivos
+	- TODO Escribir Dockerfiles eficientes con multi-stage builds
+	- TODO Orquestar servicios con Docker Compose
+	- TODO Deployar aplicaciones en Kubernetes
+	- TODO Armar un pipeline CI/CD completo con GitHub Actions
+	- TODO Entender AWS: EC2, RDS, S3, ECR, ECS/EKS básico
+- ## Temas
+	- TODO Docker: imágenes, capas, volúmenes, networking, multi-stage
+	- TODO Docker Compose: servicios dependientes, healthchecks, perfiles
+	- TODO Kubernetes: arquitectura del cluster, kubectl, manifiestos YAML
+	- TODO Pods, ReplicaSets, Deployments, Services, ConfigMaps, Secrets
+	- TODO Ingress controllers, namespaces, RBAC básico
+	- TODO Helm: charts para deployar aplicaciones
+	- TODO GitHub Actions: workflows, secrets, artifacts, matrix builds
+	- TODO AWS: IAM roles/policies, ECR, ECS, RDS, S3
+	- TODO Monitoreo: CloudWatch, Prometheus + Grafana básico
+- ## Bibliografía
+	- **Docker Deep Dive** — Nigel Poulton · *Principal, corto y claro*
+	- **Kubernetes in Action** — Marko Luksa · *El más completo de Kubernetes*
+	- **The DevOps Handbook** — Gene Kim et al. · *Cultura y principios DevOps*
+	- **AWS in Action** — Andreas & Michael Wittig · *AWS práctico para developers*
+- ## Proyecto integrador
+	- **Pipeline completo de deployment para APERNET**
+	- Dockerizar una API con multi-stage build. Docker Compose de desarrollo. GitHub Actions: tests → build → push a ECR → deploy en ECS/EC2.
+	- TODO Dockerfile con multi-stage build
+	- TODO Docker Compose de desarrollo
+	- TODO GitHub Actions: tests → build → push a ECR → deploy

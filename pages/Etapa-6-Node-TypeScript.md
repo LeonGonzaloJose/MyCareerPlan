@@ -1,0 +1,31 @@
+- # Etapa 6 — Node.js y TypeScript profesional
+- **Mes 9–12 · Backend moderno con el ecosistema JS**
+- Inicio real:: 
+- Fin real::
+- ## Objetivos
+	- TODO Dominar TypeScript: tipos, generics, decorators, utility types
+	- TODO Construir APIs REST y GraphQL con NestJS
+	- TODO Entender el event loop de Node.js y cuándo es la herramienta correcta
+	- TODO Integrar message brokers (RabbitMQ, Kafka) en servicios Node
+- ## Temas
+	- TODO TypeScript avanzado: interfaces vs types, generics, mapped types, conditional types
+	- TODO Node.js internals: event loop, libuv, streams, buffers
+	- TODO NestJS: módulos, controllers, providers, interceptors, guards, pipes
+	- TODO Prisma ORM con TypeScript: type-safe queries
+	- TODO GraphQL con Apollo Server: schema-first vs code-first
+	- TODO RabbitMQ: exchanges, queues, routing keys, dead letter queues
+	- TODO Kafka: topics, partitions, consumer groups, exactly-once semantics
+	- TODO WebSockets con Socket.io: casos de uso reales
+	- TODO Testing en Node: Jest, Supertest, mocking de módulos
+- ## Bibliografía
+	- **Node.js Design Patterns** — Casciaro & Mammino · *Principal, definitivo de Node avanzado*
+	- **Programming TypeScript** — Boris Cherny · *El mejor libro de TypeScript*
+	- **Kafka: The Definitive Guide** — Gwen Shapira et al. · *Kafka como modelo de datos*
+- ## Proyecto integrador
+	- **Microservicio de notificaciones con Node.js y Kafka**
+	- NestJS + Kafka para recibir eventos (email, push, webhook). Docker. OpenAPI. Tests de integración.
+	- TODO Microservicio NestJS operativo
+	- TODO Integración con Kafka
+	- TODO Deployado con Docker
+	- TODO Documentación OpenAPI
+	- TODO Tests de integración

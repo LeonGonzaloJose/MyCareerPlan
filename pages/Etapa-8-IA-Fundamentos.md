@@ -1,0 +1,50 @@
+- # Etapa 8 — Fundamentos de IA aplicada
+- **Mes 16–18 · LLMs, contexto, memoria, agentes y MCP**
+- Inicio real:: 
+- Fin real::
+- ## 8.1 — Cómo funciona un LLM
+	- TODO Entiendo qué es la ventana de contexto y cómo se arma
+	- TODO Entiendo qué es un token y el límite de contexto
+	- TODO Entiendo el rol del system prompt
+	- El contexto completo se arma así: System prompt + Historial + Mensaje actual + Documentos inyectados
+	- Claude tiene ~200k tokens de ventana · GPT-4o ~128k
+- ## 8.2 — Memoria
+	- TODO Conozco las 4 estrategias de memoria
+	- TODO Entiendo cómo Engram implementa memoria externa
+	- TODO Entiendo qué es RAG a nivel conceptual
+	- ### Las 4 estrategias
+		- **In-context** — el historial completo va en cada llamada. Simple, consume tokens.
+		- **Externa (RAG)** — hechos en DB externa, se recuperan y se inyectan al contexto.
+		- **Semántica** — el LLM resume el historial periódicamente para ahorrar tokens.
+		- **Paramétrica** — conocimiento quemado en los pesos via fine-tuning. Costoso.
+- ## 8.3 — Tool calling, agentes y subagentes
+	- TODO Entiendo cómo funciona tool calling a nivel de API
+	- TODO Entiendo qué es un agente y cuál es el loop
+	- TODO Entiendo la diferencia entre agente orquestador y subagentes
+	- Un agente es un loop: LLM razona → llama tool → recibe resultado → repite hasta end_turn
+	- Patrones: ReAct, Plan-and-execute, Reflexión/self-critique
+	- Frameworks: LangGraph, CrewAI, Autogen
+- ## 8.4 — Skills, harness y SDD
+	- TODO Entiendo qué es una skill y cómo vive en el repo
+	- TODO Entiendo qué es un harness y qué componentes tiene
+	- TODO Entiendo SDD y para qué sirve el CLAUDE.md
+	- **Skill** — archivo .md con instrucciones especializadas que se inyectan al contexto
+	- **Harness** — el sistema que envuelve al LLM: contexto, tools, memoria, outputs
+	- **SDD** — especificación estructurada antes de codear, queda en el repo
+	- **CLAUDE.md** — archivo raíz que el modelo siempre lee
+- ## 8.5 — MCP
+	- TODO Entiendo qué es MCP y qué problema resuelve
+	- TODO Entiendo la diferencia entre Tools, Resources y Prompts en MCP
+	- TODO Entiendo cómo el APER MCP-Gateway encaja en esto
+	- MCP es el "USB-C de los LLMs": estandariza cómo los modelos se conectan a herramientas externas
+	- Transporte: stdio (local) o HTTP+SSE (remoto/cloud)
+- ## Bibliografía
+	- **Hands-On Large Language Models** — Jay Alammar & Grootendorst · *Principal, visual y práctico*
+	- **AI Engineering** — Chip Huyen · *El más completo sobre sistemas LLM en producción*
+	- Documentación oficial MCP — modelcontextprotocol.io
+	- Documentación API Anthropic — docs.claude.com
+- ## Proyecto integrador
+	- **Documentar y extender tu propio setup**
+	- TODO Skill nueva escrita y funcional
+	- TODO Documentación del harness completo (Engram + skills + MCP-Gateway)
+	- TODO Explicación que un junior pueda seguir

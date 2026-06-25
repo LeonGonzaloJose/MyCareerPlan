@@ -1,0 +1,31 @@
+- # Etapa 7 — Go: del tutorial a producción
+- **Mes 12–16 · El lenguaje del ecosistema distribuido**
+- Inicio real:: 
+- Fin real::
+- ## Objetivos
+	- TODO Dominar Go: interfaces, goroutines, channels, error handling idiomático
+	- TODO Construir APIs REST y gRPC con Go
+	- TODO Entender el modelo de concurrencia de Go y usarlo correctamente
+	- TODO Deployar servicios Go en producción con Kubernetes
+- ## Temas
+	- TODO Go fundamentos: tipos, interfaces, structs, punteros, slices, maps
+	- TODO Error handling idiomático: errors.Is, errors.As, custom errors
+	- TODO Goroutines y channels: comunicación, select, patrones de concurrencia
+	- TODO Context: cancellation, timeouts, propagación en servicios
+	- TODO HTTP con net/http + frameworks (Gin, Chi, Fiber)
+	- TODO gRPC: Protocol Buffers, unary, streaming, interceptors
+	- TODO Testing en Go: testing package, table-driven tests, benchmarks
+	- TODO Profiling con pprof: memory leaks, CPU bottlenecks
+	- TODO go-kit / go-micro para microservicios
+- ## Bibliografía
+	- **Learning Go** — Jon Bodner · *Principal, Go idiomático moderno*
+	- **The Go Programming Language** — Donovan & Kernighan · *La biblia de Go (referencia)*
+	- **Concurrency in Go** — Katherine Cox-Buday · *Goroutines, channels y patrones*
+	- **Building Microservices** — Sam Newman · *Referencia de arquitectura de microservicios*
+- ## Proyecto integrador
+	- **Servicio de pagos en Go con gRPC**
+	- Microservicio de procesamiento de pagos con API gRPC. Circuit breaker, retries con backoff exponencial, distributed tracing. Deploy en Kubernetes con health checks y readiness probes.
+	- TODO API gRPC implementada
+	- TODO Circuit breaker + retries con backoff exponencial
+	- TODO Distributed tracing
+	- TODO Deploy en Kubernetes con health checks y readiness probes

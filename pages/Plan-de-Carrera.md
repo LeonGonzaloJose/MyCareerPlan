@@ -1,0 +1,13 @@
+- # Plan de Carrera Backend — Gonzalo
+- De Laravel a referente técnico · 9 etapas · ~18–20 meses · 4+ horas diarias
+- **Lectura transversal (1 capítulo por semana):** The Pragmatic Programmer — Hunt & Thomas
+- ## Etapas
+	- [[Etapa-1-Fundamentos]] — Meses 1–2 · SOLID, patrones, clean code
+	- [[Etapa-2-Testing]] — Mes 2–3 · Unit, integración, TDD
+	- [[Etapa-3-Bases-de-datos]] — Mes 3–4 · SQL avanzado, indexing, Redis
+	- [[Etapa-4-Arquitectura]] — Mes 4–6 · Clean Architecture, DDD, REST
+	- [[Etapa-5-Docker-Kubernetes]] — Mes 6–9 · Contenedores, CI/CD, AWS
+	- [[Etapa-6-Node-TypeScript]] — Mes 9–12 · TS avanzado, NestJS, Kafka
+	- [[Etapa-7-Go]] — Mes 12–16 · Go idiomático, concurrencia, gRPC
+	- [[Etapa-8-IA-Fundamentos]] — Mes 16–18 · LLMs, memoria, agentes, MCP
+	- [[Etapa-9-IA-Produccion]] — Mes 18–20 · RAG, tool calling, MCP propio

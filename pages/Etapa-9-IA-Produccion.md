@@ -1,0 +1,38 @@
+- # Etapa 9 — IA en producción con Go y Node
+- **Mes 18–20 · RAG, agentes y servidores MCP propios**
+- Inicio real:: 
+- Fin real::
+- ## Objetivos
+	- TODO Integrar APIs de OpenAI y Anthropic en servicios backend (Go y Node)
+	- TODO Construir flujos agénticos: tool calling, multi-step reasoning
+	- TODO Implementar RAG: embeddings, vector databases, retrieval
+	- TODO Construir tu propio servidor MCP para conectar Claude con tus APIs
+	- TODO Entender qué es fine-tuning y cuándo tiene sentido hacerlo
+- ## Temas
+	- TODO APIs de LLMs: completions, chat, function calling, streaming
+	- TODO Prompt engineering: system prompts, few-shot, chain-of-thought
+	- TODO Tool calling: conectar LLMs con tus APIs
+	- TODO Embeddings: qué son, cómo usarlos, modelos de embeddings
+	- TODO Vector databases: Pinecone, Weaviate, pgvector (PostgreSQL)
+	- TODO RAG pipeline: chunking, indexing, retrieval, re-ranking
+	- TODO Agentes con Vercel AI SDK (Node) y SDKs nativos (Go)
+	- TODO Construcción de un servidor MCP propio
+	- TODO Fine-tuning: cuándo y cómo, datasets, evaluación
+	- TODO Seguridad con LLMs: prompt injection, jailbreaking, validación de outputs
+- ## Frameworks
+	- **LangChain / LangGraph** — Python · Chains y grafos de agentes
+	- **Vercel AI SDK** — Node/TypeScript · Streaming, tool calling, multi-provider
+	- **anthropic-sdk-go / go-openai** — Go · SDKs nativos, más control
+	- **LlamaIndex** — Python · Especializado en RAG
+- ## Bibliografía
+	- **Building LLM Apps** — Valentina Alto · *Principal*
+	- **AI Engineering** — Chip Huyen · *Relectura con foco en producción*
+	- Documentación Vercel AI SDK
+	- Documentación pgvector
+- ## Proyecto integrador final
+	- **Asistente inteligente para marketplace de APERNET**
+	- Agente que responde preguntas sobre órdenes, productos y métricas usando RAG sobre datos de Redash/MySQL. Tool calling para ejecutar queries. Microservicio REST en Go o Node.
+	- TODO RAG pipeline operativo sobre datos de Redash/MySQL
+	- TODO Tool calling para ejecutar queries
+	- TODO Microservicio con interfaz REST (Go o Node)
+	- TODO BONUS: servidor MCP propio expuesto
